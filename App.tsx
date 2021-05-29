@@ -5,12 +5,13 @@ import { StatusBar } from "expo-status-bar";
 import constants from "expo-constants";
 
 import { SignIn } from "./src/pages";
+import { Routes } from "./src/routes/Routes";
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar />
-      <SignIn />
+      <Routes />
     </SafeAreaView>
   );
 }
